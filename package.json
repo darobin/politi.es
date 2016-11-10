@@ -1,0 +1,26 @@
+{
+  "name": "politi.es",
+  "private": true,
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "scripts": {
+    "watch": "echo \"Need to set this up\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darobin/politi.es.git"
+  },
+  "author": "Robin Berjon <robin@berjon.com>",
+  "bugs": {
+    "url": "https://github.com/darobin/politi.es/issues"
+  },
+  "homepage": "https://github.com/darobin/politi.es#readme",
+  "dependencies": {
+    "async": "2.0.0",
+    "jsdom": "9.0.0",
+    "marked": "0.3.5",
+    "normalize.css": "4.1.1",
+    "web-verse": "2.0.0"
+  }
+}
