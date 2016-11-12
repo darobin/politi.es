@@ -4,7 +4,9 @@
   "version": "0.0.1",
   "main": "src/index.js",
   "scripts": {
-    "watch": "echo \"Need to set this up\"",
+    "watch": "npm run watch-md & npm run serve",
+    "watch-md": "nodemon --watch index.md --watch src --watch resources/css --watch build.js --watch template.html -e md build.js",
+    "serve": "http-server publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "eslintConfig": {
@@ -29,5 +31,8 @@
     "mkdirp": "0.5.1",
     "normalize.css": "5.0.0",
     "web-verse": "2.0.0"
+  },
+  "devDependencies": {
+    "http-server": "0.9.0"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "title": "Rethink"
+  "title": "rethink"
 }
 --
 This is a test.

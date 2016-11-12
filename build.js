@@ -16,6 +16,10 @@ let findit = require('findit')
   , tmpl = readFileSync(join(__dirname, 'template.html'), 'utf8')
 ;
 
+// XXX
+//  card stuff
+//  footer
+
 series(
   [
     // copy static files, then process MD
@@ -47,9 +51,11 @@ function processMD (cb) {
           let parts = content.split(/--\n/)
             , locals = JSON.parse(parts.shift())
           ;
+          if (locals.title) locals.title += ' • politi.es';
+          else locals.title = 'politi.es';
           locals.content = marked(parts.join('--'));
           locals.hero = (item.fileName === join(src, 'index.md'))
-            ? '<div class="do-we-need-another-hero">rethink</div>'
+            ? '<header class="do-we-need-another-hero"><h1>rethink</h1></header>'
             : ''
           ;
           mkdirp(
@@ -74,9 +80,6 @@ function processMD (cb) {
       }
     );
   });
-  // XXX
-  //  card stuff
-  //  footer
 }
 
 // map(
