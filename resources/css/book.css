@@ -1,0 +1,94 @@
+
+/* this has been vendored, we're not preprocessing yet */
+@import "./normalize.css";
+@import "./roboto-light.css";
+@import "./roboto-light-italic.css";
+@import "./roboto-medium.css";
+@import "./roboto-medium-italic.css";
+
+html {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  background: #fff;
+  color: #434343;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  line-height: 1.6;
+}
+main {
+  max-width: 16cm;
+  padding: 0 1cm 2cm 1cm;
+  margin: 0 auto;
+}
+header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+h1, h2 {
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  margin: 0 auto;
+  font-variant: small-caps;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  width: max-content;
+}
+h1 {
+  font-size: 2em;
+  border-bottom: 1px solid #434343;
+  padding-bottom: 1em;
+}
+h2 {
+  margin-bottom: 3em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+header div.author {
+  text-align: center;
+  color: silver;
+  font-size: 20px;
+  letter-spacing: 1;
+  font-style: italic;
+}
+section {
+  margin-bottom: 8em;
+}
+a {
+  text-decoration: none;
+  color: #0be;
+}
+a.sectional {
+  color: #000043;
+  float: left;
+  margin-left: -0.9cm;
+  font-size: 0.7em;
+  opacity: 0.2;
+  text-decoration: none;
+  padding-top: 0.4em;
+  transition: opacity 0.25s;
+}
+a.sectional:hover {
+  opacity: 1;
+}
+p:target {
+  text-decoration: underline;
+  text-decoration-color: #9cf;
+}
+strong {
+  font-weight: 500;
+}
+#warning {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.8em;
+  padding: 0 1em;
+  color: #a00;
+  max-width: 400px;
+}
+#warning .sectional {
+  display: none;
+}
