@@ -18,7 +18,6 @@ let findit = require('findit')
 
 // XXX
 //  card stuff
-//  footer
 
 series(
   [
@@ -58,6 +57,7 @@ function processMD (cb) {
             ? '<header class="do-we-need-another-hero"><h1>rethink</h1></header>'
             : ''
           ;
+          locals.url_path = item.outName.replace(out, '');
           mkdirp(
             dirname(item.outName),
             (err) => {
