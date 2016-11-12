@@ -18,6 +18,7 @@
   "homepage": "https://github.com/darobin/politi.es#readme",
   "dependencies": {
     "async": "2.1.2",
+    "eslint-config-scienceai": "2.4.0",
     "findit": "2.0.0",
     "jsdom": "9.8.3",
     "marked": "0.3.6",
