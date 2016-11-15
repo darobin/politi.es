@@ -3,7 +3,6 @@
   "description": "The future needs to stop getting its face kicked in the political arena."
 }
 --
-
 I care for humankind, whole and parts. All should be given the opportunity to nourish and flourish,
 and no discrimination between people is ever sensible.
 
