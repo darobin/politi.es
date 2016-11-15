@@ -1,0 +1,56 @@
+
+/* this has been vendored, we're not preprocessing yet */
+@import "./normalize.css";
+@import "./roboto-light.css";
+@import "./roboto-light-italic.css";
+@import "./roboto-medium.css";
+@import "./roboto-medium-italic.css";
+
+html {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  background: #fff;
+  color: #434343;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  line-height: 1.6;
+}
+.do-we-need-another-hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+main, footer {
+  max-width: 30rem;
+  padding: 0 1cm 2cm 1cm;
+  margin: 0 auto;
+}
+footer {
+  font-size: 0.8rem;
+}
+h1, h2 {
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  margin: 0 auto;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  width: max-content;
+}
+h1 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+h2 {
+  margin-bottom: 2rem;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+a {
+  text-decoration: none;
+  color: #0be;
+}
+strong {
+  font-weight: 500;
+}
