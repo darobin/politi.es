@@ -12,7 +12,7 @@ let findit = require('findit')
   , { readFile, readFileSync, writeFile } = require('fs')
   , src = join(__dirname, 'src')
   , res = join(__dirname, 'resources')
-  , out = join(__dirname, 'publish')
+  , out = join(__dirname, 'docs')
   , tmpl = readFileSync(join(__dirname, 'template.html'), 'utf8')
 ;
 
