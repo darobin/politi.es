@@ -32,7 +32,7 @@ elections are conducted or cheated, corruption and bribery, education or poverty
 But these things have been the topic of blame for every single political crisis or problem for as
 long as I can remember and show no signs of abating.
 
-These issues haven't changed because _we_ haven't.<br>The problem is _us_.
+These issues haven’t changed because _we_ haven’t.<br>The problem is _us_.
 
 Where do we go from that thought? The first reflex could be to start a movement. A lot of
 interesting dynamics have emerged in the movement-first approach, from Occupy through Podemos to
@@ -56,10 +56,10 @@ belong to.
 
 If I have to, I will write it alone (very slowly). If you wish to help, however, you are more than
 welcome to contribute. The only required qualification is that you should care. No issue is too big
-or too small — just pick something that is dear to you. It's okay not to be an expert and just to
+or too small — just pick something that is dear to you. It’s okay not to be an expert and just to
 outline that you see a problem (possibly for someone else to fix) by
 [filing an issue](https://github.com/darobin/politi.es/issues). If you have some text to contribute,
-just [go ahead](https://github.com/darobin/politi.es) (and if you don't know how that works, we'll
+just [go ahead](https://github.com/darobin/politi.es) (and if you don’t know how that works, we’ll
 figure something out).
 
 We can fix this, and we will.
