@@ -52,6 +52,7 @@ function processMD (cb) {
           ;
           if (locals.title) locals.title += ' • politi.es';
           else locals.title = 'politi.es';
+          if (!locals.description) throw new Error('Description is compulsory.');
           locals.content = marked(parts.join('--'));
           locals.hero = (item.fileName === join(src, 'index.md'))
             ? '<header class="do-we-need-another-hero"><h1>rethink</h1></header>'
