@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "npm run watch-md & npm run serve",
     "watch-md": "nodemon --watch index.md --watch src --watch resources/css --watch build.js --watch template.html -e md build.js",
-    "serve": "http-server publish",
+    "serve": "http-server docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "eslintConfig": {
